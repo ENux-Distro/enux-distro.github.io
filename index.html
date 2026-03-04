@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENux - Download Everything from Everywhere</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to enforce the black and white theme and a clean aesthetic */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        /* Custom hover effect for buttons */
+        .btn-primary:hover {
+            background-color: #333333;
+            color: #FFFFFF;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+        }
+        .section-line {
+            height: 1px;
+            background-color: #444444;
+            margin: 4rem auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col antialiased">
+
+    <!-- Header / Navigation Bar -->
+    <header class="p-6 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Updated Header Link -->
+            <h1 class="text-3xl font-bold tracking-widest uppercase">
+                <a href="https://www.emirpasha.com/" target="_blank" class="underline hover:text-white">ENux</a>            </h1>
+            <p class="text-sm text-gray-400 hidden md:block"></p>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="text-center py-20 md:py-32 px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-5xl md:text-7xl font-extrabold mb-4 tracking-tighter">
+                    Download Everything from Everywhere
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-300 mb-10">
+                    The minimal, Linux distribution with 12 package managers
+                </p>
+
+                <!-- Download Call to Action (Now pointing to the GitHub repo TAR.GZ download) -->
+                <div class="space-y-4">
+                    <a id="downloadButton" 
+                       href="http://www.emirpasha.com/ENux-5.0.1.iso" 
+                       class="btn-primary inline-block w-full sm:w-auto px-12 py-4 text-lg font-semibold border-2 border-white rounded-lg transition duration-300 uppercase tracking-widest bg-black text-white hover:bg-white hover:text-black"
+                       download="ENux-5.0.1.iso">
+                       Download ENux 5.0.1 from This Website (ISO)
+                 </a>               
+                <!-- Download Call to Action (Now pointing to the GitHub repo TAR.GZ download) -->
+                <div class="space-y-4">
+                    <a id="downloadButton" 
+                       href="https://sourceforge.net/projects/enux/files/ENux-5.0.1.iso/download" 
+                       class="btn-primary inline-block w-full sm:w-auto px-12 py-4 text-lg font-semibold border-2 border-white rounded-lg transition duration-300 uppercase tracking-widest bg-black text-white hover:bg-white hover:text-black"
+                       download="ENux-5.0.1.iso">
+                       Download ENux 5.0.1 from SourceForge (ISO)
+                 </a>
+
+<section class="mt-8">
+    <h2 class="text-xl font-bold mb-4"></h2>
+    <div class="space-y-4">
+        <a href="https://www.emirpasha.com/other-isos/index.html"
+           class="btn-primary inline-block w-full sm:w-auto px-12 py-4 text-lg font-semibold border-2 border-white rounded-lg transition duration-300 uppercase tracking-widest"
+           target="_blank">
+           Browse Other ENux ISOs
+        </a>
+    </div>
+</section>
+
+
+    <!-- Patch Notes -->
+    <div>
+        <p class="text-sm text-gray-500 mt-2">
+            Patch notes: Introducing the ENux Package Manager, a nice tool that uses "pmm" as for the backend. Improved the visuals on the terminal
+        </p>
+    </div>
+
+</section>
+                
+ <!-- Image and Features Section -->
+        <div class="section-line"></div>
+
+        <section class="max-w-7xl mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Mock Screenshot/Diagram -->
+                <div class="bg-gray-900 border border-gray-700 rounded-xl overflow-hidden shadow-2xl">
+                    <!-- 
+                        ACTION: The 'src' attribute has been updated to point to your local screenshot file: enuxfetch_screenshot.png
+                        ACTION: The 'alt' text has also been updated for better context.
+                    -->
+                    <img src="./enuxfetch.png?v=5.0"
+                             alt="ENux OS terminal showing the system information using enuxfetch"
+                             class="w-full h-auto object-cover"
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x500/000000/ffffff?text=Image+Not+Found'">
+                </div>
+
+        <!-- Key Features List -->
+        <div class="space-y-6">
+            <h3 class="text-4xl font-bold border-b pb-3 border-gray-800">Key Features</h3>
+            <ul class="space-y-3 text-gray-300 text-lg">
+                <li class="flex items-center">
+                    <svg class="w-6 h-6 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    Minimal Footprint: Uses less than 1.5 GB of RAM for maximum performance
+                </li>
+                <li class="flex items-center">
+                    <svg class="w-6 h-6 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    Endless Packages: Uses 12 package managers so you can download anything from everywhere
+                </li>
+                <li class="flex items-center">
+                    <svg class="w-6 h-6 mr-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    No Need to Distro-Hop: You can try 12 package managers from a single OS.
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        <!-- Installation Guide Section -->
+        <div class="section-line"></div>
+
+        <section class="max-w-4xl mx-auto px-6 py-12">
+            <h3 class="text-4xl font-bold text-center mb-12">Installation Guide</h3>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
+                
+                <!-- Step 1: Download ENux -->
+                <div class="lg:col-span-1 text-center p-6 border border-gray-800 rounded-lg transition duration-300 hover:border-white">
+                    <span class="text-4xl font-extrabold text-white block mb-2">01</span>
+                    <p class="text-lg font-semibold mb-2">Install ENux</p>
+                    <p class="text-sm text-gray-400">Install <a href="https://www.emirpasha.com/ENux-5.0.1.iso" target="_blank" class="underline hover:text-white">ENux</a> from above</p>
+                </div>
+                
+                <!-- Step 2: Install ENux -->
+                <div class="lg:col-span-1 text-center p-6 border border-gray-800 rounded-lg transition duration-300 hover:border-white">
+                    <span class="text-4xl font-extrabold text-white block mb-2">02</span>
+                    <p class="text-lg font-semibold mb-2">Flash the ISO</p>
+                    <p class="text-sm text-gray-400">Flash the ISO using Rufus or similar tools</p>
+                </div>
+
+                <!-- Step 3: Extraction -->
+                <div class="lg:col-span-1 text-center p-6 border border-gray-800 rounded-lg transition duration-300 hover:border-white">
+                    <span class="text-4xl font-extrabold text-white block mb-2">03</span>
+                    <p class="text-lg font-semibold mb-2">Run ENux Installer</p>
+                    <p class="text-sm text-gray-400">Run ENux Calamares Installer once you boot in.</p>
+                </div>
+
+                <!-- Step 4: Directory Entry -->
+                <div class="lg:col-span-1 text-center p-6 border border-gray-800 rounded-lg transition duration-300 hover:border-white">
+                    <span class="text-4xl font-extrabold text-white block mb-2">04</span>
+                    <p class="text-lg font-semibold mb-2">ENux Welcomes</p>
+                    <p class="text-sm text-gray-400">ENux Welcomer runs on first-boot, no need to double click on anything this time </p>
+                </div>
+
+                <!-- Step 5: Run Scripts -->
+                <div class="lg:col-span-1 text-center p-6 border border-gray-800 rounded-lg transition duration-300 hover:border-white">
+                    <span class="text-4xl font-extrabold text-white block mb-2">05</span>
+                    <p class="text-lg font-semibold mb-2">Enjoy</p>
+                    <p class="text-sm text-gray-400">Test out our 12 package managers and use enuxfetch to check sysetm info </p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+     <footer class="mt-16 p-6 border-t border-gray-800 text-center text-gray-500">
+    <div class="max-w-4xl mx-auto space-y-2">
+        <p class="text-sm">
+            &copy; 2026 ENux All rights reserved. | 
+            Project <a href="https://github.com/ENux-Distro/ENux" target="_blank" class="underline hover:text-white transition-colors">GitHub</a>
+        </p>
+
+        <p class="text-sm">
+            Contact us at <a href="mailto:enux@emirpasha.com" class="hover:text-gray-300">enux@emirpasha.com</a>
+        </p>
+        <p class="text-sm">
+            <a href="https://www.emirpasha.com/about-me/index.html" target="_blank" class="underline hover:text-white transition-colors">About Me</a>
+        </p>
+
+    </div>
+</footer>
+</body>
+</html>
